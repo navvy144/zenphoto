@@ -1,5 +1,5 @@
-FROM ubuntu:xenial
-MAINTAINER Enric Mieza <enric@enricmieza.com>
+FROM ubuntu:jammy
+MAINTAINER Lee <zen@oliverphotos.net>
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
