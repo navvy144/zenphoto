@@ -27,6 +27,9 @@ then
 	mysqld --initialize-insecure
 fi
 
+# clear lockfile in case of previous shutdown issue
+rm /var/run/mysqld/mysqld.sock.lock
+
 # run mysql daemon
 /usr/bin/mysqld_safe > /dev/null 2>&1 &
 # wait for daemon to be up
