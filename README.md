@@ -1,6 +1,9 @@
 # docker-zenphoto
 The popular picture gallery CMS for Docker.
 
+# EXPERIMENTAL RELEASE
+This has been based on emieza's release.  Still in early testing stage.  Do not use.
+
 ## Requirements
 The container needs to populate **port 80** for accessing Apache.
 
